@@ -1,0 +1,41 @@
+{
+  "name": "community_management_system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cd client && npm run dev",
+    "server": "cd server && node server.js",
+    "start": "npm run server && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LINGAREDDYCHALLA/Community_Management_system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/LINGAREDDYCHALLA/Community_Management_system/issues"
+  },
+  "homepage": "https://github.com/LINGAREDDYCHALLA/Community_Management_system#readme",
+  "dependencies": {
+    "axios": "^1.13.5",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.2.1",
+    "nodemailer": "^8.0.1",
+    "react-router-dom": "^6.30.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.24",
+    "nodemon": "^3.1.11",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18"
+  }
+}
